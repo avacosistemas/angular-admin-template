@@ -11,6 +11,7 @@ export const locale = {
             'CONTENIDO' : {'TITLE' : 'Contenidos'},
             'IMAGEN' : {'TITLE' : 'Imágenes'},
             'PRODUCTOEXTERNO' : {'TITLE' : 'Productos'},
+            'PARAMETERS' : {'TITLE' : 'Parametros'},
             'MENU_BOLETINES' : {'TITLE' : 'Newsletter'},
             'BOLETIN' : {'TITLE' : 'Boletines'},
             'INDICE' : {'TITLE' : 'Índice'},

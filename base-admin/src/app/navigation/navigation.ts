@@ -47,6 +47,13 @@ export const navigation = [
                                 'type' : 'item',
                                 'url'  : '/' + environment.URL_PRODUCTO_EXTERNO,
                             },
+                            {
+                                'id'   : 'parameters',
+                                'title': 'Parametros',
+                                'translate': 'NAV.PARAMETERS.TITLE',
+                                'type' : 'item',
+                                'url'  : '/' + environment.URL_PARAMETERS,
+                            },
                         ]
                     },
                     {
