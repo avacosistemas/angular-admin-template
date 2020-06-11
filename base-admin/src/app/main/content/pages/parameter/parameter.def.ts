@@ -27,5 +27,5 @@ export const PARAMETER_DEF: CrudDef = {
     },
     dialogConfig: {
         width: '400px'
-    }   
+    }
 };

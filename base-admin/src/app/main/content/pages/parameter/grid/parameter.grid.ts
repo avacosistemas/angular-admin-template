@@ -19,10 +19,12 @@ export const PARAMETER_GRID_DEF = {
     }
   ],
   sortAllColumns: true,
+  deleteAction: true,
   displayedColumns: [
     'id',
     'key',
     'value',
     'description'
-  ]
+  ],
+  
 };
