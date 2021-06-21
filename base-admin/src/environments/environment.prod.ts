@@ -130,6 +130,7 @@ export const environment = {
         //     key: 'CRUD_FAQ_URL',
         //     url: PREFIX_DOMAIN_API + 'ws-rest-parameter/faqs/'
         // }
-    ]
+    ],
+    AUTOCOMPLETE_WAITING_TIME: 700
 };
 

@@ -1,1 +1,4 @@
 /base-admin/node_modules
+node_modules/
+base-admin/dist/
+package-lock.json

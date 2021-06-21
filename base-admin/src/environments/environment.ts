@@ -32,5 +32,6 @@ export const environment = {
     URL_PRODUCTO_EXTERNO : 'productoExterno',
     URL_PARAMETERS : 'parameters',
     URL_LOGOUT_API: PREFIX_DOMAIN_API + 'user/logout',
+    AUTOCOMPLETE_WAITING_TIME: 700
 };
 

@@ -60,7 +60,7 @@ export class HttpService extends BaseService {
   }
 
   httpPut(url, data, options): Observable<any> {
-        const urlid = url + data.id;
+        const urlid = url;
         console.log('****** put -> ' + urlid);
         console.log('****** object sended ⬎');
         console.log(data);
@@ -146,6 +146,7 @@ export class HttpService extends BaseService {
         if (response.ok === false){
           this.subHandleError(observer, response);
         } else if (data) {
+            this.handlePaginator(response);
             observer.next(data);
         } else {
             observer.next(response);
@@ -196,5 +197,11 @@ export class HttpService extends BaseService {
         url = url + '?';
       }
       return url.concat(param).concat('=').concat(value);
+  }
+
+  handlePaginator(response: any) {
+    if (response.page) {
+      this.filterService.totalReg = response.page.totalReg;
+    }
   }
 }
